@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "So it begins"
+title:  "Example"
 date:   2020-02-08 18:03:20 +0000
-categories: jekyll update
+categories: dummy
+img:
+  screenshot.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -18,12 +20,20 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
+Example of putting an image using base url:
+
+![]({{site.baseurl}}/img/screenshot.png)
 
 Example of code snippet:
 ```
 code?
 ```
 
+
+
+{{site.url}}
+
+
 Link to [My Site][my-site]
 
-[my-site]: https://kevinninglei.github.io/site/
+[my-site]: https://kevinnlei.github.io/site/

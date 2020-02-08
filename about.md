@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Put about me heree
+hi, my name is Kevin. Thoughts are my own.
